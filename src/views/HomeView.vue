@@ -1,7 +1,13 @@
 <template>
 	<main>
-		<h1>Home View</h1>
+		<Hero />
+		<TechStacks />
+		<Projects />
 	</main>
 </template>
 
-<script setup></script>
+<script setup>
+	import Hero from '../components/home/Hero.vue';
+	import TechStacks from '../components/home/TechStacks.vue';
+	import Projects from '../components/home/Projects.vue';
+</script>

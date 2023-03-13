@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .section-hero {
+	background-color: #0f172a;
+	padding: 0 0 80px 0;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
+}
+
+.section-g {
+	background-color: #0f172a;
+	padding: 80px 0;
+	clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 80px));
+} */
