@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg1435"
+   sodipodi:docname="37-supabase.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1437"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.8125"
+     inkscape:cx="128"
+     inkscape:cy="131.58621"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1435" />
+  <title
+     id="title1413">supabase</title>
+  <defs
+     id="defs1425">
+    <linearGradient
+       x1="175.91646"
+       y1="112.40149"
+       x2="238.88852"
+       y2="146.99763"
+       id="supabase-linearGradient-1"
+       gradientTransform="scale(0.87372223,1.1445285)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#249361"
+         offset="0%"
+         id="stop1415" />
+      <stop
+         stop-color="#3ECF8E"
+         offset="100%"
+         id="stop1417" />
+    </linearGradient>
+    <linearGradient
+       x1="147.99797"
+       y1="62.328339"
+       x2="176.71651"
+       y2="133.14543"
+       id="supabase-linearGradient-2"
+       gradientTransform="scale(0.87372223,1.1445285)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#000000"
+         offset="0%"
+         id="stop1420" />
+      <stop
+         stop-color="#000000"
+         stop-opacity="0"
+         offset="100%"
+         id="stop1422" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g13289"
+     transform="scale(1,0.9735786)">
+    <g
+       id="g1433">
+      <path
+         d="m 149.60151,258.57883 c -6.71743,8.45933 -20.33763,3.82443 -20.49949,-6.97701 L 126.73524,93.617653 h 106.22838 c 19.24081,0 29.97178,22.223307 18.0075,37.292237 z"
+         fill="url(#supabase-linearGradient-1)"
+         id="path1427"
+         style="fill:url(#supabase-linearGradient-1)" />
+      <path
+         d="m 149.60151,258.57883 c -6.71743,8.45933 -20.33763,3.82443 -20.49949,-6.97701 L 126.73524,93.617653 h 106.22838 c 19.24081,0 29.97178,22.223307 18.0075,37.292237 z"
+         fill-opacity="0.2"
+         fill="url(#supabase-linearGradient-2)"
+         id="path1429"
+         style="fill:url(#supabase-linearGradient-2)" />
+      <path
+         d="m 106.39902,4.3690857 c 6.71743,-8.4602701 20.33787,-3.82465331 20.49973,6.9769393 L 127.9359,169.32995 H 23.036984 c -19.2413939,0 -29.9726689,-22.2233 -18.0078023,-37.29223 z"
+         fill="#3ecf8e"
+         id="path1431" />
+    </g>
+  </g>
+  <metadata
+     id="metadata13291">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>supabase</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
