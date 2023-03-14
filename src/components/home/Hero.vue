@@ -1,3 +1,5 @@
+import { RouterLink } from 'vue-router';
+
 <template>
 	<div class="hero min-h-screen bg-base-200 section-hero">
 		<div class="hero-content flex-col lg:flex-row-reverse lg:px-[120px]">
@@ -20,11 +22,13 @@
 					work hand to hand with my clients, whose I prefer to call my friends. <br />
 					Let's work together!
 				</p>
-				<button
-					class="btn btn-primary h-16 px-10 rounded-full text-xl hover:bg-yellow-400"
-				>
-					Contact Me
-				</button>
+				<RouterLink to="/contact">
+					<button
+						class="btn btn-primary h-16 px-10 rounded-full text-xl hover:bg-yellow-400"
+					>
+						Contact Me
+					</button>
+				</RouterLink>
 			</div>
 		</div>
 	</div>

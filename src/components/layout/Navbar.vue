@@ -31,9 +31,9 @@
 				<li>
 					<RouterLink to="/about"> About me </RouterLink>
 				</li>
-				<li>
+				<!-- <li>
 					<RouterLink to="/blog"> Blog </RouterLink>
-				</li>
+				</li> -->
 				<li>
 					<RouterLink to="/contact"> Contact me </RouterLink>
 				</li>

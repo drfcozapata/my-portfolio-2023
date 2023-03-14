@@ -1,0 +1,116 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"name": "Guadalajara Web Camp",
+			"image": "",
+			"year": 2020,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://gldwebcamp07.netlify.app/"
+		},
+		{
+			"id": 2,
+			"name": "Rock & EDM Festival",
+			"image": "",
+			"year": 2020,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://ex4-rock-festival.netlify.app/"
+		},
+		{
+			"id": 3,
+			"name": "Blog de Café",
+			"image": "",
+			"year": 2020,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://ex3-blogdecafe.netlify.app/"
+		},
+		{
+			"id": 4,
+			"name": "Portfolio 2021",
+			"image": "",
+			"year": 2021,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://portfolio-fz.netlify.app/"
+		},
+		{
+			"id": 5,
+			"name": "I Love My Yacht",
+			"image": "",
+			"year": 2022,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://www.ilovemyyacht.com/"
+		},
+		{
+			"id": 6,
+			"name": "Iglesia Bautista Fe",
+			"image": "",
+			"year": 2022,
+			"language": "Spanish / English",
+			"stacks": "Vue.js 3, Nuxt.js 3",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://ibfefwtx.org/"
+		},
+		{
+			"id": 7,
+			"name": "EwexCar",
+			"image": "",
+			"year": 2022,
+			"language": "Spanish / English",
+			"stacks": "Vue.js, Vuex, Vue-router, Vuetify, Vue-i18n",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://ewexcar.com/"
+		},
+		{
+			"id": 8,
+			"name": "Vue 3 New Documentation",
+			"image": "",
+			"year": 2023,
+			"language": "Spanish",
+			"stacks": "HTML, CSS, JavaScript",
+			"description": [
+				"My first personal project, part of the Complete Web Development course I took in 2020.",
+				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event."
+			],
+			"published": "At Netlify.",
+			"url": "https://vue3-spanish.netlify.app/"
+		}
+	]
+}
