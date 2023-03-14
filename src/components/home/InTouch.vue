@@ -21,19 +21,19 @@
 		</div>
 
 		<aside class="lg:pr-[120px] flex flex-col gap-6">
-			<a href="mailto:drfcozapata@gmail.com">
+			<a href="mailto:drfcozapata@gmail.com" target="_blank">
 				<figure class="w-[30px] h-[30px]">
-					<img src="../../assets/img/email.svg" alt="" />
+					<img src="../../assets/img/email.svg" alt="Icono de Email" />
 				</figure>
 			</a>
-			<a href="https://www.linkedin.com/in/drfcozapata/">
+			<a href="https://www.linkedin.com/in/drfcozapata/" target="_blank">
 				<figure class="w-[30px] h-[30px]">
-					<img src="../../assets/img/linkedin.svg" alt="" />
+					<img src="../../assets/img/linkedin.svg" alt="Icono de LinkedIn" />
 				</figure>
 			</a>
-			<a href="https://twitter.com/drfcozapata">
+			<a href="https://twitter.com/drfcozapata" target="_blank">
 				<figure class="w-[30px] h-[30px]">
-					<img src="../../assets/img/twitter.svg" alt="" />
+					<img src="../../assets/img/twitter.svg" alt="Icono de Twitter" />
 				</figure>
 			</a>
 		</aside>
