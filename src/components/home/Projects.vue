@@ -31,7 +31,7 @@
 			<RouterLink to="/project/1">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-01.png" alt="Shoes" />
+						<img src="project-01.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Guadalajara Web Camp</h2>
@@ -45,7 +45,7 @@
 			<RouterLink to="/project/2">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-02.png" alt="Shoes" />
+						<img src="project-02.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Rock & EDM Festival</h2>
@@ -59,7 +59,7 @@
 			<RouterLink to="/project/3">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-03.png" alt="Shoes" />
+						<img src="project-03.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Blog de Café</h2>
@@ -73,7 +73,7 @@
 			<RouterLink to="/project/4">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-04.png" alt="Shoes" />
+						<img src="project-04.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Portafolio 2021</h2>
@@ -87,7 +87,7 @@
 			<RouterLink to="/project/5">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-05.png" alt="Shoes" />
+						<img src="project-05.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">I Love My Yacht</h2>
@@ -98,7 +98,7 @@
 			<RouterLink to="/project/6">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-06.png" alt="Shoes" />
+						<img src="project-06.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Iglesia Bautista Fe</h2>
@@ -109,7 +109,7 @@
 			<RouterLink to="/project/7">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-07.png" alt="Shoes" />
+						<img src="project-07.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">EwexCar</h2>
@@ -123,7 +123,7 @@
 			<RouterLink to="/project/8">
 				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
 					<figure class="h-[200px] image">
-						<img src="../../assets/img/project-08.png" alt="Shoes" />
+						<img src="project-08.png" alt="Shoes" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">Vue 3 New Documentation</h2>
