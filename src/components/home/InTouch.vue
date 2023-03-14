@@ -21,21 +21,21 @@
 		</div>
 
 		<aside class="lg:pr-[120px] flex flex-col gap-6">
-			<RouterLink to="mailto:drfcozapata@gmail.com">
+			<a href="mailto:drfcozapata@gmail.com">
 				<figure class="w-[30px] h-[30px]">
 					<img src="../../assets/img/email.svg" alt="" />
 				</figure>
-			</RouterLink>
-			<RouterLink to="https://www.linkedin.com/in/drfcozapata/">
+			</a>
+			<a href="https://www.linkedin.com/in/drfcozapata/">
 				<figure class="w-[30px] h-[30px]">
 					<img src="../../assets/img/linkedin.svg" alt="" />
 				</figure>
-			</RouterLink>
-			<RouterLink to="https://twitter.com/drfcozapata">
+			</a>
+			<a href="https://twitter.com/drfcozapata">
 				<figure class="w-[30px] h-[30px]">
 					<img src="../../assets/img/twitter.svg" alt="" />
 				</figure>
-			</RouterLink>
+			</a>
 		</aside>
 	</section>
 </template>

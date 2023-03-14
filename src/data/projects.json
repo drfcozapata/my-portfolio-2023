@@ -51,7 +51,7 @@
 			"stacks": "HTML, CSS, JavaScript",
 			"description": [
 				"My first portfolio, created as a requirement to pass the \"Fundamentals of Web Development\" module of my studies at Academlo.",
-				"It demonstrates the skills acquired in HTML and CSS layout, and to give functionality to a website using JavaScript."
+				"This project was aimed to demonstrate the knowledge acquired to perform the proper layout of a web site using only HTML and CSS, and to evaluate the ability to provide functionality to a web site using only vanilla JavaScript."
 			],
 			"published": "At Netlify.",
 			"url": "https://portfolio-fz.netlify.app/"
@@ -124,7 +124,7 @@
 			"stacks": "Vue.js 3, Vue-router, Pinia, Vite, TailwindCSS, DaisyUI, SASS.",
 			"description": [
 				"My personal portfolio in 2023 (this very site), updated and made entirely with Vue.js 3.",
-				"This website shows the technologies I currently know and use, as well as some of the personal and client projects I have done since 2020."
+				"This website showcases the technologies I currently know and use most often, as well as some of the personal projects and client projects I've done since 2020. Some projects could not be included because their URLs were not active on the internet."
 			],
 			"published": "At Netlify.",
 			"url": "https://fz-portfolio-2023.netlify.app/"
