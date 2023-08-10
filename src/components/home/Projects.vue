@@ -1,5 +1,6 @@
 <template>
 	<section class="min-h-[120vh] lg:px-[120px] mb-20 projects">
+		<!-- Intro -->
 		<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
 			My Projects
 		</h2>
@@ -25,6 +26,7 @@
 			</p>
 		</div>
 
+		<!-- Projects -->
 		<article
 			class="md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-4 lg:grid-rows-3 md:gap-10 lg:w-3/4 mx-auto px-10 md:px-20 lg:px-0 mb-10"
 		>
@@ -129,7 +131,7 @@
 						<h2 class="card-title">Vue 3 New Documentation</h2>
 						<p>
 							I coordinated the team translating the new Vue 3 documentation into Spanish
-							(awaiting publication by the Vue Core Team).
+							(2023).
 						</p>
 					</div>
 				</div>
@@ -144,6 +146,20 @@
 						<p>
 							My personal portfolio in 2023 (this very site), updated and made entirely
 							using Vue.js 3 and its ecosystem.
+						</p>
+					</div>
+				</div>
+			</RouterLink>
+			<RouterLink to="/project/10">
+				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
+					<figure class="h-[200px] image">
+						<img src="/project-10.png" alt="" />
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title">Packing List Generator</h2>
+						<p>
+							Project developed for the logistics company Miami Carga to generate Packing
+							(2023).
 						</p>
 					</div>
 				</div>

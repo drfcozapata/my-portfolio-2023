@@ -128,6 +128,21 @@
 			],
 			"published": "At Netlify.",
 			"url": "https://fz-portfolio-2023.netlify.app/"
+		},
+		{
+			"id": 10,
+			"name": "Packing List Generator",
+			"image": "project-10.png",
+			"year": 2023,
+			"language": "Spanish",
+			"stacks": "Vue.js 3, Vite, TailwindCSS, Vue3-to-pdf.",
+			"description": [
+				"Project developed for the logistics company Miami Carga to generate Packing (2023).",
+				"From this website, the company's customers can generate the Packing Lists they need for their shipments.",
+				"The site allows to generate additional tabs if the customer needs to add more products, automatic random numbering of the lists, automatic generation of date and page numbering and automatic filling of the affidavit, finally generating a single PDF file with all the information provided."
+			],
+			"published": "At Netlify.",
+			"url": "https://mc-packing-list.netlify.app/"
 		}
 	]
 }
