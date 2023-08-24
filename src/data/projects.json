@@ -143,6 +143,20 @@
 			],
 			"published": "At Netlify.",
 			"url": "https://mc-packing-list.netlify.app/"
+		},
+		{
+			"id": 11,
+			"name": "Patitas - Tienda para Gatos",
+			"image": "project-11.png",
+			"year": 2023,
+			"language": "Spanish",
+			"stacks": "HTML5, CSS3 and JavaScript.",
+			"description": [
+				"Project developed for a client who is going to launch soon her store site to production (2023)",
+				"The site allows to know the products of the store, see the best sellers, buy them (soon), search (soon) with various filters, see the Services offered by the company and contact them."
+			],
+			"published": "At Netlify.",
+			"url": "https://patitas-draft.netlify.app/"
 		}
 	]
 }
