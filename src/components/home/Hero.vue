@@ -6,6 +6,7 @@ import { RouterLink } from 'vue-router';
 			<div class="bg-orange-100 rounded-lg max-w-[60%] md:max-w-[280px] lg:max-w-sm">
 				<img
 					src="../../assets/img/meVertical.png"
+					alt="Francisco Zapata"
 					class="rounded-lg shadow-2xl shadow-blue-600 lg:max-w-xs"
 				/>
 			</div>

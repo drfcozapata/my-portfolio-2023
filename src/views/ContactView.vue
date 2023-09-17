@@ -1,5 +1,5 @@
 <template>
-	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100">
+	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100 h-[calc(100vh-308px)]">
 		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
 			Contact me
 		</h1>
@@ -7,8 +7,8 @@
 			<div class="lg:w-1/3">
 				<img
 					src="../assets/img/contact.png"
-					alt="About me photo"
-					class="w-2/3 md:w-1/2 lg:w-full mx-auto rounded-xl bg-cover"
+					alt="Contact image"
+					class="w-2/3 md:w-1/2 lg:w-full mx-auto rounded-l-xl bg-cover"
 				/>
 			</div>
 			<section class="lg:w-2/3 px-5 md:px-10 lg:px-0 mt-[50px] lg:mt-0">
