@@ -1,14 +1,14 @@
 <template>
-	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100 h-[calc(100vh-308px)]">
+	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100 min-h-[calc(100vh-308px)]">
 		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
 			Contact me
 		</h1>
 		<div class="lg:flex lg:gap-[50px]">
-			<div class="lg:w-1/3">
+			<div class="h-[376px] 2xl:h-[416px]">
 				<img
 					src="../assets/img/contact.png"
 					alt="Contact image"
-					class="w-2/3 md:w-1/2 lg:w-full mx-auto rounded-l-xl bg-cover"
+					class="h-full w-2/3 md:w-1/2 lg:w-full mx-auto rounded-xl lg:rounded-r-none bg-cover"
 				/>
 			</div>
 			<section class="lg:w-2/3 px-5 md:px-10 lg:px-0 mt-[50px] lg:mt-0">
