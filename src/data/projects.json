@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"name": "Guadalajara Web Camp",
-			"image": "project-01.png",
+			"images": ["project-01.png"],
 			"year": 2020,
 			"language": "Spanish",
 			"stacks": "HTML, CSS, JavaScript",
@@ -17,7 +17,7 @@
 		{
 			"id": 2,
 			"name": "Rock & EDM Festival",
-			"image": "project-02.png",
+			"images": ["project-02.png"],
 			"year": 2020,
 			"language": "Spanish",
 			"stacks": "HTML, CSS, JavaScript",
@@ -31,7 +31,7 @@
 		{
 			"id": 3,
 			"name": "Blog de Café",
-			"image": "project-03.png",
+			"images": ["project-03.png"],
 			"year": 2020,
 			"language": "Spanish",
 			"stacks": "HTML, CSS, JavaScript",
@@ -45,7 +45,7 @@
 		{
 			"id": 4,
 			"name": "Portfolio 2021",
-			"image": "project-04.png",
+			"images": ["project-04.png"],
 			"year": 2021,
 			"language": "Spanish",
 			"stacks": "HTML, CSS, JavaScript",
@@ -59,7 +59,7 @@
 		{
 			"id": 5,
 			"name": "I Love My Yacht",
-			"image": "project-05.png",
+			"images": ["project-05.png"],
 			"year": 2022,
 			"language": "Spanish",
 			"stacks": "WordPress, Elementor Pro",
@@ -73,7 +73,7 @@
 		{
 			"id": 6,
 			"name": "Iglesia Bautista Fe",
-			"image": "project-06.png",
+			"images": ["project-06.png"],
 			"year": 2022,
 			"language": "Spanish / English",
 			"stacks": "Vue.js 3, Nuxt.js 3, Pinia, TailwindCSS, Iconify",
@@ -88,7 +88,7 @@
 		{
 			"id": 7,
 			"name": "EwexCar",
-			"image": "project-07.png",
+			"images": ["project-07.png"],
 			"year": 2022,
 			"language": "Spanish / English",
 			"stacks": "Vue.js, Vuex, Vue-router, Vuetify, Vue-i18n, Vue-CLI, Babel, SweetAlert, Axios, SASS",
@@ -103,7 +103,7 @@
 		{
 			"id": 8,
 			"name": "Vue 3 New Documentation",
-			"image": "project-08.png",
+			"images": ["project-08.png"],
 			"year": 2023,
 			"language": "Spanish",
 			"stacks": "Vue.js 3, VitePress, Vite, GSAP 3, Dynamics.js, Terser, @types/markdown-it",
@@ -118,7 +118,7 @@
 		{
 			"id": 9,
 			"name": "My Portfolio 2023",
-			"image": "project-09.png",
+			"images": ["project-09.png"],
 			"year": 2023,
 			"language": "Spanish / English",
 			"stacks": "Vue.js 3, Vue-router, Pinia, Vite, TailwindCSS, DaisyUI, SASS.",
@@ -132,7 +132,7 @@
 		{
 			"id": 10,
 			"name": "Packing List Generator",
-			"image": "project-10.png",
+			"images": ["project-10.png"],
 			"year": 2023,
 			"language": "Spanish",
 			"stacks": "Vue.js 3, Vite, TailwindCSS, Vue3-to-pdf.",
@@ -147,7 +147,7 @@
 		{
 			"id": 11,
 			"name": "Patitas - Tienda para Gatos",
-			"image": "project-11.png",
+			"images": ["project-11.png"],
 			"year": 2023,
 			"language": "Spanish",
 			"stacks": "HTML5, CSS3 and JavaScript.",
@@ -157,6 +157,73 @@
 			],
 			"published": "At Netlify.",
 			"url": "https://patitas-draft.netlify.app/"
+		},
+		{
+			"id": 12,
+			"name": "HSSE App",
+			"images": ["project-12a.png"],
+			"year": 2023,
+			"language": "Spanish, English, French",
+			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
+			"description": [
+				"Developed to monitor aspects of hygiene and industrial safety in the construction area in the Dominican Republic.",
+				"The application is 100% responsive, so that employees can operate it from mobile phones or tablets.",
+				"Allows you to control staff attendance, reprimands and shows the details of each employee in the construction area."
+			],
+			"published": "At Doulos Dev subdomain.",
+			"url": "https://hsse.doulos-dev.net/"
+		},
+		{
+			"id": 13,
+			"name": "Administrativo Óptima Visión",
+			"images": [
+				"project-13a.png",
+				"project-13b.png",
+				"project-13c.png",
+				"project-13d.png",
+				"project-13e.png"
+			],
+			"year": 2024,
+			"language": "Spanish",
+			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
+			"description": [
+				"Application developed for a client to manage the administration of an optical store in Peru.",
+				"The application is 100% responsive, so that employees can operate it from mobile phones or tablets.",
+				"It allows you to view a report of all activity, add and edit information on products, customers, sales and orders, and create printed reports, in PDF or Excel, of all activity."
+			],
+			"published": "At Doulos Dev subdomain.",
+			"url": "https://optima-vision.doulos-dev.net/"
+		},
+		{
+			"id": 14,
+			"name": "El Mexican",
+			"images": [
+				"project-14a.png",
+				"project-14b.png",
+				"project-14c.png",
+				"project-14d.png"
+			],
+			"year": 2024,
+			"language": "Spanish",
+			"stacks": "HTML5,CSS3",
+			"description": [
+				"Application developed for a client as a basis for the subsequent development of the website of his Mexican food restaurant."
+			],
+			"published": "At Netlify.",
+			"url": "https://el-mexican.netlify.app/"
+		},
+		{
+			"id": 15,
+			"name": "Diversa",
+			"images": ["project-15.png"],
+			"year": 2024,
+			"language": "Spanish, English",
+			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
+			"description": [
+				"Application developed as landing page for a mental health clinic in Dominican Republic."
+			],
+			"published": "At Doulos Dev subdomain.",
+			"url": "https://diversa.doulos-dev.net/"
 		}
 	]
 }

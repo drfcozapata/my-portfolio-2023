@@ -1,4 +1,6 @@
-import { RouterLink } from 'vue-router';
+<script setup>
+	import { RouterLink } from 'vue-router';
+</script>
 
 <template>
 	<div class="hero min-h-screen bg-base-200 section-hero">
@@ -19,8 +21,9 @@ import { RouterLink } from 'vue-router';
 				<p
 					class="py-6 w-full md:w-[90%] md:mx-auto lg:w-[80%] lg:mx-0 text-lg md:text-xl lg:text-2xl leading-loose text-slate-200 mb-10"
 				>
-					I'm a Vue.js fullstack web developer from Puerto Ordaz, Venezuela. I like to
-					work hand to hand with my clients, whose I prefer to call my friends. <br />
+					I'm a Vue.js/Laravel/Inertia fullstack web developer from Puerto Ordaz,
+					Venezuela. I like to work hand to hand with my clients, whose I prefer to call
+					my friends. <br />
 					Let's work together!
 				</p>
 				<RouterLink to="/contact">

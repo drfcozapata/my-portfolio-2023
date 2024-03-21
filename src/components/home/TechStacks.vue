@@ -23,15 +23,15 @@
 				<div class="tooltip" data-tip="Vue.js">
 					<img src="@/assets/img/05-vuejs.svg" alt="" class="h-[60px]" />
 				</div>
-				<div class="tooltip" data-tip="Nuxt.js">
-					<img src="@/assets/img/09-nuxt.svg" alt="" class="h-[60px] -ml-2" />
-				</div>
 				<div class="tooltip" data-tip="Pinia">
 					<img src="@/assets/img/07-pinia.svg" alt="" class="h-[60px]" />
 				</div>
 				<div class="tooltip" data-tip="Inertia">
 					<img src="@/assets/img/47-inertia.svg" alt="" class="h-[60px]" />
 				</div>
+				<!-- <div class="tooltip" data-tip="Angular">
+					<img src="@/assets/img/52-angular.svg" alt="" class="h-[60px]" />
+				</div> -->
 			</div>
 		</div>
 
@@ -51,6 +51,9 @@
 			</div>
 			<div class="tooltip" data-tip="Laravel Breeze">
 				<img src="@/assets/img/48-breeze.svg" alt="" class="h-[60px] lg:h-[60px]" />
+			</div>
+			<div class="tooltip" data-tip="Laravel Jetstream">
+				<img src="@/assets/img/51-jetstream.svg" alt="" class="h-[60px] lg:h-[60px]" />
 			</div>
 			<div class="tooltip" data-tip="MySQL">
 				<img
@@ -167,10 +170,6 @@
 		</div>
 	</div>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>
 
 <!-- 
 <div class="tooltip" data-tip="React.js">

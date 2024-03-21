@@ -36,7 +36,7 @@
 					<img src="../../assets/img/twitter.svg" alt="Icono de Twitter" width="100%" />
 				</figure>
 			</a>
-			<a href="tel:+584120918548" target="_blank">
+			<a href="https://wa.me/584120918548" target="_blank">
 				<figure class="w-[30px] h-[30px]">
 					<img src="../../assets/img/whatsapp.svg" alt="Icono de WhatsApp" width="100%" />
 				</figure>

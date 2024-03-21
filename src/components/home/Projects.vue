@@ -1,3 +1,11 @@
+<script setup>
+	import { projects } from '../../data/projects.json';
+
+	const getImgPath = img => {
+		return new URL(`../../assets/img/${img}`, import.meta.url).href;
+	};
+</script>
+
 <template>
 	<section class="min-h-[120vh] lg:px-[120px] mb-20 projects">
 		<!-- Intro -->
@@ -16,8 +24,8 @@
 				being them who deploy the sites, and I don't know the url's of them.
 			</p>
 			<p class="text-base md:text-lg mb-5">
-				I show here only some personal projects created during my training and the few
-				that I have managed to deploy completely by myself.
+				I show here only some personal projects created during my training and those that
+				I have managed to deploy completely by myself.
 			</p>
 			<p class="text-base md:text-lg mb-10">
 				Personal fullstack projects developed during 2021-2022 suffered the loss of their
@@ -31,13 +39,15 @@
 			class="md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-4 lg:grid-rows-3 md:gap-10 lg:w-3/4 mx-auto px-10 md:px-20 lg:px-0 mb-10"
 		>
 			<RouterLink
-				v-for="{ id, name, image, description } in projects"
+				v-for="{ id, name, images, description } in projects"
 				:key="id"
 				:to="`/project/${id}`"
 			>
-				<div class="card card-compact w-full bg-base-100 shadow-xl mb-10 md:mb-0">
-					<figure class="h-[200px] image">
-						<img :src="image" alt="" />
+				<div
+					class="card card-compact w-full min-h-[260px] bg-base-100 shadow-xl mb-10 md:mb-0"
+				>
+					<figure class="h-32 4xl:h-[200px] image">
+						<img :src="getImgPath(images[0])" :alt="name" />
 					</figure>
 					<div class="card-body">
 						<h2 class="card-title">{{ name }}</h2>
@@ -50,10 +60,6 @@
 		</article>
 	</section>
 </template>
-
-<script setup>
-	import { projects } from '../../data/projects.json';
-</script>
 
 <style lang="scss" scoped>
 	.projects {
