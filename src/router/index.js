@@ -4,6 +4,8 @@ import AboutView from '../views/AboutView.vue';
 import BlogView from '../views/BlogView.vue';
 import ContactView from '../views/ContactView.vue';
 import ProjectView from '../views/ProjectView.vue';
+import TermsConditions from '../views/TermsConditions.vue';
+import PrivacyPolicy from '../views/PrivacyPolicy.vue';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,16 @@ const router = createRouter({
 			path: '/project/:id',
 			name: 'project',
 			component: ProjectView,
+		},
+		{
+			path: '/terms-conditions',
+			name: 'terms',
+			component: TermsConditions,
+		},
+		{
+			path: '/privacy-policy',
+			name: 'privacy',
+			component: PrivacyPolicy,
 		},
 	],
 	scrollBehavior: function (to, _from, savedPosition) {

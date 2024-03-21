@@ -1,3 +1,7 @@
+<script setup>
+	import { RouterLink } from 'vue-router';
+</script>
+
 <template>
 	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100 min-h-[calc(100vh-308px)]">
 		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
@@ -61,9 +65,5 @@
 		</div>
 	</div>
 </template>
-
-<script setup>
-	import { RouterLink } from 'vue-router';
-</script>
 
 <style scoped></style>

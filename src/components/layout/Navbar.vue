@@ -21,6 +21,8 @@
 				/>
 			</RouterLink>
 		</div>
+
+		<!-- Desktop Menu -->
 		<div class="hidden lg:flex">
 			<ul class="menu menu-horizontal px-1 text-slate-200 text-lg font-medium">
 				<li>
@@ -34,7 +36,8 @@
 				</li>
 			</ul>
 		</div>
-		<!-- Menu Responsive -->
+
+		<!-- Mobile Menu -->
 		<div class="flex-none lg:hidden relative">
 			<button class="btn btn-square btn-ghost text-slate-200" @click="menuVisible">
 				<svg
@@ -56,6 +59,9 @@
 				:class="isVisible ? 'visible' : 'hidden'"
 			>
 				<ul class="menu px-1 text-slate-200 text-lg font-medium">
+					<li>
+						<RouterLink to="/"> Home </RouterLink>
+					</li>
 					<li>
 						<RouterLink to="/about"> About me </RouterLink>
 					</li>
