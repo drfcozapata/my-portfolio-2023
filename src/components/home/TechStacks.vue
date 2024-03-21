@@ -1,5 +1,5 @@
 <template>
-	<div class="lg:px-[120px] mb-10">
+	<div class="px-6 md:px-10 2xl:px-24 3xl:px-28 mb-10">
 		<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
 			My Stacks
 		</h2>

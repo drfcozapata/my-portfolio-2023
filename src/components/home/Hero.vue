@@ -3,7 +3,7 @@
 </script>
 
 <template>
-	<div class="hero min-h-screen bg-base-200 section-hero">
+	<div class="hero min-h-screen lg:min-h-[65vh] bg-base-200 section-hero">
 		<div class="hero-content flex-col lg:flex-row-reverse lg:px-[120px]">
 			<div class="bg-orange-100 rounded-lg max-w-[60%] md:max-w-[280px] lg:max-w-sm">
 				<img
