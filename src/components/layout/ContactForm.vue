@@ -16,7 +16,7 @@
 					<label
 						for="floating_first_name"
 						class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-						>First name</label
+						>{{ $t('Contact1') }}</label
 					>
 				</div>
 				<div class="relative z-0 w-full mb-6 group">
@@ -32,7 +32,7 @@
 					<label
 						for="floating_last_name"
 						class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-						>Last name</label
+						>{{ $t('Contact2') }}</label
 					>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 				<label
 					for="floating_email"
 					class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-					>Email address</label
+					>{{ $t('Contact3') }}</label
 				>
 			</div>
 			<div class="grid md:grid-cols-2 md:gap-6">
@@ -66,7 +66,7 @@
 					<label
 						for="floating_phone"
 						class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-						>Phone number +584121234567</label
+						>{{ $t('Contact4') }}</label
 					>
 				</div>
 				<div class="relative z-0 w-full mb-6 group">
@@ -82,7 +82,7 @@
 					<label
 						for="floating_company"
 						class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-						>Company (optional)</label
+						>{{ $t('Contact5') }}</label
 					>
 				</div>
 			</div>
@@ -99,7 +99,7 @@
 				<label
 					for="floating_email"
 					class="peer-focus:font-medium absolute text-sm 2xl:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-					>Your message</label
+					>{{ $t('Contact6') }}</label
 				>
 			</div>
 			<!-- <pre>
@@ -110,7 +110,7 @@
 				type="submit"
 				class="btn btn-primary h-12 px-8 rounded-full text-xl hover:bg-yellow-400 hover:border-transparent"
 			>
-				Submit
+				{{ $t('Submit') }}
 			</button>
 		</form>
 	</div>

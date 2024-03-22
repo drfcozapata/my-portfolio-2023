@@ -49,13 +49,10 @@ const router = createRouter({
 	scrollBehavior: function (to, _from, savedPosition) {
 		if (savedPosition) {
 			return savedPosition;
-		}
-		if (to.hash) {
+		} else if (to.hash) {
 			return { el: to.hash, behavior: 'smooth' };
 		} else {
-			setTimeout(() => {
-				window.scrollTo(0, 0);
-			}, 500);
+			return { left: 0, top: 0 };
 		}
 	},
 });

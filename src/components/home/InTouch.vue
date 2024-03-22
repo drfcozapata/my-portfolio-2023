@@ -2,20 +2,20 @@
 	<section
 		class="min-h-[50vh] in-touch bg-base-200 flex flex-col md:flex-row justify-between items-center section-in-touch"
 	>
-		<div class="lg:pl-[120px] py-10 md:py-20">
+		<div class="px-5 lg:pl-[120px] py-10 md:py-20">
 			<h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
-				Let's Work Together!
+				{{ $t('Together') }}
 			</h2>
 			<p
 				class="py-2 w-full md:mx-auto lg:mx-0 text-lg md:text-xl lg:text-2xl leading-loose text-slate-200 mb-7"
 			>
-				Have a project you'd like to discuss?
+				{{ $t('HaveProject') }}
 			</p>
 			<RouterLink to="/contact">
 				<button
 					class="btn btn-primary h-14 px-8 rounded-full text-xl hover:bg-yellow-400"
 				>
-					Contact Me
+					{{ $t('Contact') }}
 				</button>
 			</RouterLink>
 		</div>

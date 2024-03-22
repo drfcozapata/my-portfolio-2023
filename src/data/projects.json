@@ -5,13 +5,10 @@
 			"name": "Guadalajara Web Camp",
 			"images": ["project-01.png"],
 			"year": 2020,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML, CSS, JavaScript",
-			"description": [
-				"My first personal project, part of the Udemy course \"Desarrollo Web Completo\" I took in 2020.",
-				"The project serves as a framework for the Guadalajara Web Camp showing its organization, guest speakers, schedules and presents the possibility of purchasing tickets and other souvenirs of the event. It was developed to practice various layout techniques with HTML and CSS, and JavaScript functionalities."
-			],
-			"published": "At Netlify.",
+			"description": ["project01Description1", "project01Description2"],
+			"published": "Netlify",
 			"url": "https://gldwebcamp07.netlify.app/"
 		},
 		{
@@ -19,13 +16,10 @@
 			"name": "Rock & EDM Festival",
 			"images": ["project-02.png"],
 			"year": 2020,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML, CSS, JavaScript",
-			"description": [
-				"My second personal project, part of the Udemy course \"Desarrollo Web Completo\" I took in 2020.",
-				"This project presents a rock concert, schedule, groups to participate, ticket costs and was developed to practice various CSS techniques."
-			],
-			"published": "At Netlify.",
+			"description": ["project02Description1", "project02Description2"],
+			"published": "Netlify",
 			"url": "https://ex4-rock-festival.netlify.app/"
 		},
 		{
@@ -33,13 +27,10 @@
 			"name": "Blog de Café",
 			"images": ["project-03.png"],
 			"year": 2020,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML, CSS, JavaScript",
-			"description": [
-				"My third personal project, part of the Udemy course \"Desarrollo Web Completo\" I took in 2020.",
-				"This project shows a blog type site in which you can see different blog entries, courses taught and you can access them. Developed to practice various CSS and JavaScript techniques."
-			],
-			"published": "At Netlify.",
+			"description": ["project03Description1", "project03Description2"],
+			"published": "Netlify",
 			"url": "https://ex3-blogdecafe.netlify.app/"
 		},
 		{
@@ -47,13 +38,10 @@
 			"name": "Portfolio 2021",
 			"images": ["project-04.png"],
 			"year": 2021,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML, CSS, JavaScript",
-			"description": [
-				"My first portfolio, created to pass the \"Fundamentals\" module of my studies at Academlo (2021).",
-				"This project was aimed to demonstrate the knowledge acquired to perform the proper layout of a web site using only HTML and CSS, and to evaluate the ability to provide functionality to a web site using only vanilla JavaScript."
-			],
-			"published": "At Netlify.",
+			"description": ["project04Description1", "project04Description2"],
+			"published": "Netlify",
 			"url": "https://portfolio-fz.netlify.app/"
 		},
 		{
@@ -61,13 +49,10 @@
 			"name": "I Love My Yacht",
 			"images": ["project-05.png"],
 			"year": 2022,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "WordPress, Elementor Pro",
-			"description": [
-				"Website of the maintenance company \"I Love My Yacht\", located in Florida, USA (2022).",
-				"This site was developed using WordPress as CMS, Elementor Pro and some other WordPress plugins to create the site according to the design provided by the client."
-			],
-			"published": "At GooDaddy",
+			"description": ["project05Description1", "project05Description2"],
+			"published": "GooDaddy",
 			"url": "https://www.ilovemyyacht.com/"
 		},
 		{
@@ -75,14 +60,14 @@
 			"name": "Iglesia Bautista Fe",
 			"images": ["project-06.png"],
 			"year": 2022,
-			"language": "Spanish / English",
+			"language": ["Spanish", "English"],
 			"stacks": "Vue.js 3, Nuxt.js 3, Pinia, TailwindCSS, Iconify",
 			"description": [
-				"Website of the Christian church \"Iglesia Bautista Fe\", located in Fortworth, Texas, USA (2022).",
-				"This website starts with a landing page and has several internal pages to explore the identity of the pastor of the church, the activities they do and the calendar of events.",
-				"In addition, it has a dashboard that allows the client to update the information."
+				"project06Description1",
+				"project06Description2",
+				"project06Description3"
 			],
-			"published": "At Hostinger.",
+			"published": "Hostinger",
 			"url": "https://ibfefwtx.org/"
 		},
 		{
@@ -90,14 +75,14 @@
 			"name": "EwexCar",
 			"images": ["project-07.png"],
 			"year": 2022,
-			"language": "Spanish / English",
+			"language": ["Spanish", "English"],
 			"stacks": "Vue.js, Vuex, Vue-router, Vuetify, Vue-i18n, Vue-CLI, Babel, SweetAlert, Axios, SASS",
 			"description": [
-				"I was part of the UPH&Blue Group team that developed the frontend of the EwexCar website (2022).",
-				"EwexCar is a European startup that promotes the acquisition of vehicles through financing and links directly with a FinTech that facilitates such financing.",
-				"We developed during 3 months the frontend of this website and its integration with the backend developed in parallel by another team."
+				"project07Description1",
+				"project07Description2",
+				"project07Description3"
 			],
-			"published": "I don't know the server used",
+			"published": "Unknowed",
 			"url": "https://ewexcar.com/"
 		},
 		{
@@ -105,14 +90,14 @@
 			"name": "Vue 3 New Documentation",
 			"images": ["project-08.png"],
 			"year": 2023,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "Vue.js 3, VitePress, Vite, GSAP 3, Dynamics.js, Terser, @types/markdown-it",
 			"description": [
-				"I coordinated the team that translated into Spanish the Vue 3 documentation (2023).",
-				"During 8 months a team of 8 people translated each part of this new documentation.",
-				"I was in charge of coordinating this team and reviewing the work done by each member before integrating it into the final repository."
+				"project08Description1",
+				"project08Description2",
+				"project08Description3"
 			],
-			"published": "At Netlify.",
+			"published": "Netlify",
 			"url": "https://vue3-spanish.netlify.app/"
 		},
 		{
@@ -120,13 +105,10 @@
 			"name": "My Portfolio 2023",
 			"images": ["project-09.png"],
 			"year": 2023,
-			"language": "Spanish / English",
+			"language": ["Spanish", "English"],
 			"stacks": "Vue.js 3, Vue-router, Pinia, Vite, TailwindCSS, DaisyUI, SASS.",
-			"description": [
-				"My personal portfolio in 2023 (this very site), updated and made entirely with Vue.js 3 (2023).",
-				"This website showcases the technologies I currently know and use most often, as well as some of the personal projects and client projects I've done since 2020. Some projects could not be included because their URLs were not active on the internet."
-			],
-			"published": "At Netlify.",
+			"description": ["project09Description1", "project09Description2"],
+			"published": "Netlify",
 			"url": "https://fz-portfolio-2023.netlify.app/"
 		},
 		{
@@ -134,14 +116,14 @@
 			"name": "Packing List Generator",
 			"images": ["project-10.png"],
 			"year": 2023,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "Vue.js 3, Vite, TailwindCSS, Vue3-to-pdf.",
 			"description": [
-				"Project developed for the logistics company Miami Carga to generate Packing (2023).",
-				"From this website, the company's customers can generate the Packing Lists they need for their shipments.",
-				"The site allows to generate additional tabs if the customer needs to add more products, automatic random numbering of the lists, automatic generation of date and page numbering and automatic filling of the affidavit, finally generating a single PDF file with all the information provided."
+				"project10Description1",
+				"project10Description2",
+				"project10Description3"
 			],
-			"published": "At Netlify.",
+			"published": "Netlify",
 			"url": "https://mc-packing-list.netlify.app/"
 		},
 		{
@@ -149,13 +131,10 @@
 			"name": "Patitas - Tienda para Gatos",
 			"images": ["project-11.png"],
 			"year": 2023,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML5, CSS3 and JavaScript.",
-			"description": [
-				"Project developed for a client who is going to launch soon her store site to production (2023)",
-				"The site allows to know the products of the store, see the best sellers, buy them (soon), search (soon) with various filters, see the Services offered by the company and contact them."
-			],
-			"published": "At Netlify.",
+			"description": ["project11Description1", "project11Description2"],
+			"published": "Netlify",
 			"url": "https://patitas-draft.netlify.app/"
 		},
 		{
@@ -163,14 +142,14 @@
 			"name": "HSSE App",
 			"images": ["project-12a.png"],
 			"year": 2023,
-			"language": "Spanish, English, French",
+			"language": ["Spanish", "English", "French"],
 			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
 			"description": [
-				"Developed to monitor aspects of hygiene and industrial safety in the construction area in the Dominican Republic.",
-				"The application is 100% responsive, so that employees can operate it from mobile phones or tablets.",
-				"Allows you to control staff attendance, reprimands and shows the details of each employee in the construction area."
+				"project12Description1",
+				"project12Description2",
+				"project12Description3"
 			],
-			"published": "At Doulos Dev subdomain.",
+			"published": "Doulos",
 			"url": "https://hsse.doulos-dev.net/"
 		},
 		{
@@ -184,14 +163,14 @@
 				"project-13e.png"
 			],
 			"year": 2024,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
 			"description": [
-				"Application developed for a client to manage the administration of an optical store in Peru.",
-				"The application is 100% responsive, so that employees can operate it from mobile phones or tablets.",
-				"It allows you to view a report of all activity, add and edit information on products, customers, sales and orders, and create printed reports, in PDF or Excel, of all activity."
+				"project13Description1",
+				"project13Description2",
+				"project13Description3"
 			],
-			"published": "At Doulos Dev subdomain.",
+			"published": "Doulos",
 			"url": "https://optima-vision.doulos-dev.net/"
 		},
 		{
@@ -204,12 +183,10 @@
 				"project-14d.png"
 			],
 			"year": 2024,
-			"language": "Spanish",
+			"language": ["Spanish"],
 			"stacks": "HTML5,CSS3",
-			"description": [
-				"Application developed for a client as a basis for the subsequent development of the website of his Mexican food restaurant."
-			],
-			"published": "At Netlify.",
+			"description": ["project14Description1"],
+			"published": "Netlify",
 			"url": "https://el-mexican.netlify.app/"
 		},
 		{
@@ -217,12 +194,10 @@
 			"name": "Diversa",
 			"images": ["project-15.png"],
 			"year": 2024,
-			"language": "Spanish, English",
+			"language": ["Spanish", "English"],
 			"stacks": "Laravel 10, Inertia, Vue.js 3, TailwindCSS",
-			"description": [
-				"Application developed as landing page for a mental health clinic in Dominican Republic."
-			],
-			"published": "At Doulos Dev subdomain.",
+			"description": ["project15Description1"],
+			"published": "Doulos",
 			"url": "https://diversa.doulos-dev.net/"
 		}
 	]

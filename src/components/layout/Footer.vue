@@ -10,14 +10,14 @@
 		<div class="items-center flex gap-2">
 			<Resalt />
 
-			<p>All right reserved. &copy; {{ new Date().getFullYear() }} by Duolos Dev</p>
+			<p>{{ $t('Rights') }}</p>
 		</div>
 		<div class="flex gap-7 -mt-7 md:mt-0">
 			<RouterLink to="/terms-conditions">
-				<p>Terms and Conditions</p>
+				<p>{{ $t('Terms') }}</p>
 			</RouterLink>
 			<RouterLink to="/privacy-policy">
-				<p>Privacy Policy</p>
+				<p>{{ $t('Privacy') }}</p>
 			</RouterLink>
 		</div>
 	</footer>

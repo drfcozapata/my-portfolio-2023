@@ -32,7 +32,7 @@
 <template>
 	<div class="about mx-auto lg:px-[220px] my-20 bg-base-100 min-h-[calc(100vh-308px)]">
 		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
-			Contact me
+			{{ $t('Contact') }}
 		</h1>
 		<div class="lg:flex lg:gap-[50px]">
 			<div class="h-[376px] 2xl:h-[416px]">

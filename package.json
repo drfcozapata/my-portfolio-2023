@@ -12,6 +12,7 @@
 		"@heroicons/vue": "^2.1.1",
 		"@tailwindcss/forms": "^0.5.7",
 		"pinia": "^2.1.7",
+		"postcss-nesting": "^12.1.0",
 		"vue": "^3.4.21",
 		"vue-i18n": "9",
 		"vue-router": "^4.3.0"

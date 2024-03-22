@@ -1,36 +1,39 @@
 <script setup>
+	import { onBeforeRouteLeave } from 'vue-router';
 	import { projects } from '../../data/projects.json';
+	import { ref } from 'vue';
 
 	const getImgPath = img => {
 		return new URL(`../../assets/img/${img}`, import.meta.url).href;
 	};
+
+	const scrollPosition = ref(0);
+
+	onBeforeRouteLeave((to, from) => {
+		if (from.name === 'home' && to.name === 'project') {
+			scrollPosition.value = window.scrollY;
+		}
+	});
 </script>
 
 <template>
-	<section class="min-h-[120vh] lg:px-[120px] mb-20 projects">
+	<section class="min-h-[120vh] py-24 lg:px-16 mb-20 projects">
 		<!-- Intro -->
 		<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
-			My Projects
+			{{ $t('Projects') }}
 		</h2>
 		<div class="w-full 4xl:w-4/5 mx-auto px-6 md:px-10 2xl:px-24 3xl:px-28">
 			<p class="text-base md:text-lg 4xl:text-xl mb-5">
-				During the last 3 years I have developed several projects: landing pages,
-				e-commerces, frontend of complete websites and fullstack sites (frontend and
-				backend) using different technologies.
+				{{ $t('ProjectParagraph1') }}
 			</p>
 			<p class="text-base md:text-lg 4xl:text-xl mb-5">
-				Not all my creations are available to be shown because many times I am
-				subcontracted by agencies and my role goes up to the development of the code,
-				being them who deploy the sites, and I don't know the url's of them.
+				{{ $t('ProjectParagraph2') }}
 			</p>
 			<p class="text-base md:text-lg 4xl:text-xl mb-5">
-				I show here only some personal projects created during my training and those that
-				I have managed to deploy completely by myself.
+				{{ $t('ProjectParagraph3') }}
 			</p>
 			<p class="text-base md:text-lg 4xl:text-xl mb-10">
-				Personal fullstack projects developed during 2021-2022 suffered the loss of their
-				backend with the change of Heroku's policy, where they were hosted for free. That
-				is why they are not included.
+				{{ $t('ProjectParagraph4') }}
 			</p>
 		</div>
 
@@ -54,7 +57,7 @@
 					<div class="card-body">
 						<h2 class="card-title">{{ name }}</h2>
 						<p class="4xl:text-lg">
-							{{ description[0] }}
+							{{ $t(description[0]) }}
 						</p>
 					</div>
 				</div>
@@ -70,7 +73,6 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: 90%;
-		padding: 80px 0;
 		clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 80px));
 
 		.card {

@@ -1,10 +1,10 @@
 <template>
-	<div class="px-6 md:px-10 2xl:px-24 3xl:px-28 mb-10">
+	<div class="px-6 md:px-10 lg:px-20 xl:px-0 2xl:px-6 4xl:px-36 mb-10 xl:w-4/5 mx-auto">
 		<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-5 mb-10">
-			My Stacks
+			{{ $t('MyStacks') }}
 		</h2>
-		<h3 class="text-3xl font-semibold ml-5 mb-3">Frontend</h3>
-		<div class="w-full lg:w-[90%]">
+		<h3 class="text-3xl font-semibold ml-5 mb-3 mx-auto">Frontend</h3>
+		<div class="mx-auto w-full lg:w-[90%] 2xl:w-[94%]">
 			<div
 				class="w-full lg:w-[85%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 			>
@@ -35,9 +35,9 @@
 			</div>
 		</div>
 
-		<h3 class="text-3xl font-semibold ml-5 mt-12 mb-3">Backend</h3>
+		<h3 class="text-3xl font-semibold ml-5 mt-12 mb-3 mx-auto">Backend</h3>
 		<div
-			class="w-full lg:w-[85%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
+			class="w-full lg:w-[85%] 2xl:w-[90%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 		>
 			<div class="tooltip" data-tip="Laravel">
 				<img src="@/assets/img/19-laravel.svg" alt="" class="h-[60px] lg:h-[70px]" />
@@ -70,9 +70,11 @@
 			</div>
 		</div>
 
-		<h3 class="text-2xl font-semibold ml-5 mt-12 mb-3">Complementary Techs</h3>
+		<h3 class="text-2xl font-semibold ml-5 mt-12 mb-3 mx-auto">
+			{{ $t('Complementary') }}
+		</h3>
 		<div
-			class="w-full lg:w-[85%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
+			class="w-full lg:w-[85%] 2xl:w-[90%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 		>
 			<div class="tooltip" data-tip="TailwindCSS">
 				<img src="@/assets/img/14-tailwind-css.svg" alt="" class="h-9 md:h-12" />
@@ -106,9 +108,9 @@
 			</div>
 		</div>
 
-		<h3 class="text-2xl font-semibold ml-5 mt-12 mb-5">Auxiliar Techs</h3>
+		<h3 class="text-2xl font-semibold ml-5 mt-12 mb-5 mx-auto">{{ $t('Auxiliar') }}</h3>
 		<div
-			class="w-full lg:w-[85%] flex flex-wrap gap-[15px] md:gap-[25px] justify-center mx-auto px-5 items-center"
+			class="w-full lg:w-[85%] 2xl:w-[90%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 		>
 			<div class="tooltip" data-tip="Ubuntu Linux">
 				<img src="@/assets/img/28-ubuntu.svg" alt="" class="h-8 md:h-10" />

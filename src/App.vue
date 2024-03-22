@@ -1,3 +1,9 @@
+<script setup>
+	import { RouterView } from 'vue-router';
+	import Navbar from './components/layout/Navbar.vue';
+	import Footer from './components/layout/Footer.vue';
+</script>
+
 <template>
 	<Navbar />
 	<RouterView v-slot="{ Component }">
@@ -7,12 +13,6 @@
 	</RouterView>
 	<Footer />
 </template>
-
-<script setup>
-	import { RouterView } from 'vue-router';
-	import Navbar from './components/layout/Navbar.vue';
-	import Footer from './components/layout/Footer.vue';
-</script>
 
 <style scoped>
 	.page-opacity-enter-active,
