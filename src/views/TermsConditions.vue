@@ -240,20 +240,28 @@
 </template>
 
 <style scoped>
-	.terms {
-		h3 {
-			@apply text-[2em] xl:text-[2.5em] font-semibold text-center mb-10;
+	.terms h3 {
+		font-size: 2em;
+		@media (min-width: 1280px) {
+			font-size: 2.5em;
 		}
-		h4 {
-			@apply text-[1.25em] font-semibold mt-[1.25em];
-		}
-		p {
-			@apply mt-2;
-		}
-		ul {
-			li {
-				@apply list-disc ml-5;
-			}
-		}
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 2.5rem;
+	}
+
+	.terms h4 {
+		font-size: 1.25em;
+		font-weight: 600;
+		margin-top: 1.25em;
+	}
+
+	.terms p {
+		margin-top: 0.5rem;
+	}
+
+	.terms ul li {
+		list-style-type: disc;
+		margin-left: 1.25rem;
 	}
 </style>
