@@ -37,7 +37,7 @@
 
 		<h3 class="text-3xl font-semibold ml-5 mt-12 mb-3 mx-auto">Backend</h3>
 		<div
-			class="w-full lg:w-[85%] 2xl:w-[90%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
+			class="w-full lg:w-[800px] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 		>
 			<div class="tooltip" data-tip="Laravel">
 				<img src="@/assets/img/19-laravel.svg" alt="" class="h-[60px] lg:h-[70px]" />
@@ -54,6 +54,12 @@
 			</div>
 			<div class="tooltip" data-tip="Laravel Jetstream">
 				<img src="@/assets/img/51-jetstream.svg" alt="" class="h-[60px] lg:h-[60px]" />
+			</div>
+			<div class="tooltip" data-tip="Node.js">
+				<img src="@/assets/img/17-nodejs.svg" alt="" class="h-9 md:h-[56px]" />
+			</div>
+			<div class="tooltip" data-tip="Express.js">
+				<img src="@/assets/img/18-express-js.svg" alt="" class="h-9 md:h-[54px]" />
 			</div>
 			<div class="tooltip" data-tip="MySQL">
 				<img
@@ -100,20 +106,17 @@
 			<div class="tooltip" data-tip="Axios">
 				<img src="@/assets/img/10-axios.svg" alt="" class="h-9 md:h-12" />
 			</div>
-			<div class="tooltip" data-tip="Node.js">
-				<img src="@/assets/img/17-nodejs.svg" alt="" class="h-9 md:h-12" />
-			</div>
-			<div class="tooltip" data-tip="Express.js">
-				<img src="@/assets/img/18-express-js.svg" alt="" class="h-9 md:h-12" />
-			</div>
 		</div>
 
 		<h3 class="text-2xl font-semibold ml-5 mt-12 mb-5 mx-auto">{{ $t('Auxiliar') }}</h3>
 		<div
-			class="w-full lg:w-[85%] 2xl:w-[90%] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
+			class="w-full lg:w-[900px] flex flex-wrap gap-5 md:gap-9 justify-center mx-auto px-3 md:px-0 items-center"
 		>
 			<div class="tooltip" data-tip="Ubuntu Linux">
 				<img src="@/assets/img/28-ubuntu.svg" alt="" class="h-8 md:h-10" />
+			</div>
+			<div class="tooltip" data-tip="Manjaro Linux">
+				<img src="@/assets/img/53-manjaro.svg" alt="" class="h-8 md:h-10" />
 			</div>
 			<div class="tooltip" data-tip="Vite">
 				<img src="@/assets/img/29-vite.svg" alt="" class="h-8 md:h-10" />
@@ -161,10 +164,10 @@
 				<img src="@/assets/img/50-notion.svg" alt="" class="h-8 md:h-10" />
 			</div>
 			<div class="tooltip" data-tip="Slack">
-				<img src="@/assets/img/42-slack.svg" alt="" class="h-6 md:h-8" />
+				<img src="@/assets/img/42-slack.svg" alt="" class="h-6 md:h-6" />
 			</div>
 			<div class="tooltip" data-tip="Zoom">
-				<img src="@/assets/img/43-zoom.svg" alt="" class="h-5 md:h-6" />
+				<img src="@/assets/img/43-zoom.svg" alt="" class="h-5 md:h-5" />
 			</div>
 			<div class="tooltip" data-tip="Google Meet">
 				<img src="@/assets/img/44-google-meet.svg" alt="" class="h-7 md:h-8" />
