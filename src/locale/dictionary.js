@@ -13,7 +13,7 @@ export default {
 		Auxiliar: 'Tecnologías Auxiliares',
 		Projects: 'Mis Proyectos',
 		ProjectParagraph1:
-			'Durante los últimos 3 años he desarrollado varios proyectos: landing pages, e-commerces, frontend de sitios web completos y sitios fullstack (frontend y backend) utilizando diferentes tecnologías.',
+			'Durante los últimos 5 años he desarrollado muchísimos proyectos: landing pages, e-commerces, frontend de sitios web completos, CRMs, EPRs y sitios web fullstack (frontend y backend) utilizando diferentes tecnologías.',
 		ProjectParagraph2:
 			'No todas mis creaciones están disponibles para ser mostradas porque muchas veces soy subcontratado por agencias y mi rol va hasta el desarrollo del código, siendo ellos quienes despliegan los sitios, y desconozco las urls de los mismos.',
 		ProjectParagraph3:
@@ -140,7 +140,7 @@ export default {
 		Auxiliar: 'Auxiliar Techs',
 		Projects: 'My Projects',
 		ProjectParagraph1:
-			'During the last 3 years I have developed several projects: landing pages, e-commerces, frontend of complete websites and fullstack sites (frontend and backend) using different technologies.',
+			'During the last 5 years I have developed a lot of projects: landing pages, e-commerces, frontend of complete websites, CRMs, EPRs and fullstack websites (frontend and backend) using different technologies.',
 		ProjectParagraph2:
 			"Not all my creations are available to be shown because many times I am subcontracted by agencies and my role goes up to the development of the code, being them who deploy the sites, and I don't know the url's of them.",
 		ProjectParagraph3:
